@@ -18,12 +18,12 @@ app.post("/user", (req, res) => {
 
 // edit user
 app.put("/user/:userId", (req, res) => {
-    res.send("edit user");
+    res.send("edit user " + req.params.userId);
 });
 
 // delete user
 app.delete("/user/:userId", (req, res) => {
-    res.send("delete user");
+    res.send("delete user " + req.params.userId);
 });
 
 // gel all users
@@ -33,7 +33,7 @@ app.get("/users", (req, res) => {
 
 // gel user
 app.get("/user/:userId", (req, res) => {
-    res.send("get user");
+    res.send("get user " + req.params.userId);
 });
 
 app.listen(8081, () => {
