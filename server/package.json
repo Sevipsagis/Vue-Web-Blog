@@ -1,0 +1,22 @@
+{
+  "name": "vue-web-blog",
+  "version": "1.0.0",
+  "description": "vue-web-blog-server (backend)",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sevipsagis/Vue-Web-Blog.git"
+  },
+  "author": "Nattapon B.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sevipsagis/Vue-Web-Blog/issues"
+  },
+  "homepage": "https://github.com/Sevipsagis/Vue-Web-Blog#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
